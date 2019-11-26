@@ -1,6 +1,6 @@
 {
-  "name": "kaa-empty-project",
-  "version": "1.0.0",
+  "name": "cpu-search",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
