@@ -1,0 +1,17 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "eslint.autoFixOnSave": true,
+  "editor.formatOnSaveTimeout": 2500,
+  "eslint.enable": true,
+  "prettier.printWidth": 100,
+  "cSpell.words": [
+    "Ansible",
+    "Centos",
+    "HOWTO",
+    "derez",
+    "lmposter",
+    "lmposters",
+    "myadcenter"
+  ]
+}

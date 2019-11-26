@@ -1,0 +1,16 @@
+{
+    "version": "0.1",
+    "language": "en",
+    "ignorePaths": [
+        "data/",
+        "cSpell.json"
+    ],
+    "words": [
+    ],
+    "flagWords": [
+        "retrun",
+        "hte"
+    ],
+    "spellCheckDelay": 2000,
+    "cSpell.spellCheckDelay": 3000
+}

@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "checkJs": true,
+    "lib": ["es6", "dom"]
+  },
+  "include": ["./src/**/*.js", "./lib/**/*.js", "./models/**/*.js", "./test/**/*.js"],
+  "files": ["./src/global.d.ts"]
+}

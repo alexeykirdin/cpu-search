@@ -1,0 +1,39 @@
+{
+  "name": "kaa-empty-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/mocha": "^5.2.7",
+    "@types/node": "12.7.3",
+    "chai": "^4.2.0",
+    "eslint": "^6.3.0",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "husky": "^3.0.5",
+    "lint-staged": "^7.0.5",
+    "mocha": "^6.2.0",
+    "prettier-standard": "^14.0.3"
+  },
+  "lint-staged": {
+    "test/**/*.{js}": [
+      "eslint --fix test",
+      "git add"
+    ],
+    "{src,lib,test}/**/*.{js,jsx,json,css,md}": [
+      "eslint --fix src",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

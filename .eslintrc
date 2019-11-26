@@ -1,0 +1,63 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "node": true,
+    "mocha": true,
+    "browser": true
+  },
+  "extends": [],
+  "rules": {
+    "prefer-const": 2,
+    "prefer-object-spread": 1,
+    "no-const-assign": 2,
+    "object-shorthand": [1, "properties"],
+    "quote-props": 0,
+    "no-array-constructor": 2,
+    "array-callback-return": 1,
+    "prefer-destructuring": 1,
+    "quotes": [
+      1,
+      "single",
+      {
+        "avoidEscape": true,
+        "allowTemplateLiterals": true
+      }
+    ],
+    "no-useless-escape": 2,
+    "no-loop-func": 1,
+    "space-before-blocks": [1, "always"],
+    "no-param-reassign": 0,
+    "no-undef": "error",
+
+    "semi": ["warn", "never"],
+
+    "no-mixed-spaces-and-tabs": 2,
+    "no-path-concat": 1,
+    "no-redeclare": 1,
+    "no-sequences": 1,
+    "no-trailing-spaces": [
+      "off",
+      {
+        "skipBlankLines": true,
+        "ignoreComments": true
+      }
+    ],
+    "no-throw-literal": 2,
+    "no-unneeded-ternary": 1,
+    "no-unreachable": 1,
+    "no-with": 1,
+    "no-useless-call": 1,
+    "padded-blocks": ["error", "never"],
+    "rest-spread-spacing": 1
+  },
+  "globals": {
+    "Promise": "readonly",
+    "App": "readonly"
+  }
+}
